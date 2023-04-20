@@ -6,4 +6,4 @@ function ButtonClick()
 end
 _G.Text = '' --your notification text inside the ''
 
-loadstring(game.HttpGet(game, '', true))
+loadstring(game.HttpGet(game, 'https://raw.githubusercontent.com/Subjoel/gui/main/notify.lua', true))
