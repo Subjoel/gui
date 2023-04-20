@@ -44,6 +44,6 @@ function _G.Main:CreateWindow()
 end
 local Frame1 = _G.Main:CreateWindow()
 Frame1:ImageButton(function()
-        _G.ButtonClick()
+        ButtonClick()
 end)
 return _G.Main
