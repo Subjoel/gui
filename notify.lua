@@ -1,3 +1,12 @@
+function ButtonClick()
+    task.wait()
+    game.CoreGui.notify:Destroy()
+    --place your function for what needs to happen when they click the button below this
+    
+end
+_G.Text = 'lol' --your notification text inside the ''
+
+
 _G.Main = {}
 
 function _G.Main:CreateWindow()
